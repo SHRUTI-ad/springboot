@@ -20,7 +20,7 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #4CAF50; /* Green header */
             color: #fff;
             text-align: center;
             padding: 2rem 0;
@@ -28,12 +28,13 @@
 
         header h1 {
             margin-bottom: 1rem;
+            font-size: 2.5rem;
         }
 
         nav {
             display: flex;
             justify-content: center;
-            background-color: #444;
+            background-color: #333;
         }
 
         nav a {
@@ -41,6 +42,7 @@
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
+            font-size: 1.1rem;
         }
 
         nav a:hover {
@@ -56,6 +58,25 @@
 
         section {
             margin-bottom: 2rem;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Colors for different sections */
+        #about {
+            background-color: #f0f8ff; /* Alice blue */
+        }
+
+        #skills {
+            background-color: #f5f5f5; /* Light grey */
+        }
+
+        #hobbies {
+            background-color: #ffebcd; /* Blanched almond */
+        }
+
+        #contact {
+            background-color: #ffe4e1; /* Misty rose */
         }
 
         .social-icons {
@@ -113,6 +134,21 @@
         footer a {
             color: #fff;
             text-decoration: none;
+        }
+
+        /* Link styling for the "Connect" button */
+        .connect-link {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .connect-link:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -177,6 +213,11 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
+
+    <!-- Connect link to another page -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="https://www.example.com" class="connect-link">Connect with Me</a> <!-- Replace with your actual URL -->
+    </div>
 
 </div>
 
